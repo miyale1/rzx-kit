@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Required by legacy Superuser/daemonsu implementations to show an authorization prompt. -->
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+
+    <queries>
+        <package android:name="com.iflytek.elpmobile.smartlearning" />
+    </queries>
+</manifest>
